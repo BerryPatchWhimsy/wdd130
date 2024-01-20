@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Hind+Vadodara&display=swap');
+
+:root {
+    --primary-color: #5E9E6F;
+    --secondary-color: #395B50;
+    --accent1-color: #39D0C1;
+    --accent2-color: #ffb041;
+
+    --heading-font: 'Gretchen Fuemen', cursive;
+    --paragraph-font: 'Hind Vadodara', sans-serif;
+
+    --nav-background-color: #5e9e6f;
+    --nav-link-color: white;
+    --nav-hover-link-color: black;
+    --nav-hover-background-color: white;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+header {
+    padding: 10px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 30px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color)
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
