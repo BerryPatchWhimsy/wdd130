@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Hind+Vadodara&display=swap');
 
 :root {
-    --primary-color: #5E9E6F;
-    --secondary-color: #395B50;
-    --accent1-color: #39D0C1;
+    --primary-color: #39d0c1;
+    --secondary-color: #5E9E6F;
+    --accent1-color: #395B50;
     --accent2-color: #ffb041;
 
     --heading-font: 'Gretchen Fuemen', cursive;
     --paragraph-font: 'Hind Vadodara', sans-serif;
 
-    --nav-background-color: #5e9e6f;
+    --nav-background-color: #39d0c1;
     --nav-link-color: white;
     --nav-hover-link-color: black;
     --nav-hover-background-color: white;
@@ -21,9 +21,14 @@ body {
     padding: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--accent2-color);
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
 }
 
 header {
@@ -33,6 +38,7 @@ header {
 
 p {
     padding: 30px;
+    color: var(--accent1-color);
 }
 
 nav {
@@ -55,4 +61,44 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+.hero article {
+    position: absolute;
+    top: 440px;
+    left: 0;
+    width: 100%;
+    background-color: #39d0c1c1;
+}
+
+.hero article img {
+    float: right;
+    width: 25%;
+    height: auto;
+}
+
+section {
+    background-color: #39d0c1;
+    color: azure;
+}
+
+footer img {
+    width: 30px;
+    height: auto;
 }
