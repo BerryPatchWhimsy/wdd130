@@ -10,9 +10,14 @@
     --paragraph-font: 'Hind Vadodara', sans-serif;
 
     --nav-background-color: #39d0c1;
-    --nav-link-color: white;
-    --nav-hover-link-color: black;
-    --nav-hover-background-color: white;
+    --nav-link-color: azure;
+    --nav-hover-link-color: #395B50;
+    --nav-hover-background-color: #5E9E6F;
+}
+
+header img{
+    width: 100px;
+    height: auto;
 }
 
 body {
