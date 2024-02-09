@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: medium;
+    display: grid;
+    grid-template-columns: 400px;
+    justify-content: space-around;
+}
+
+h1 {
+    display: flex;
+    justify-content: space-around; 
+    margin: 3px;
+    color: rgb(66, 5, 131);
+    font-size: larger;
+}
+
+fieldset {
+    display: grid;
+    background-color: rgb(238, 237, 237);
+    border: 0.5px solid #e0e0e0;
+    grid-template-columns: 375px;
+}
+
+
+label {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+    
+input {
+    height: fit-content;
+}
+
+textarea {
+    height: 6rem;
+}
+
+select {
+    height: auto;
+    box-sizing: border-box;
+}
+
+input, textarea, select {
+    width: 350px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: medium;
+}
+
+img {
+    width: 15rem;
+    margin: 10px 60px 15px 60px;
+    border: 0.5px solid black;
+}
+
+button {
+    align-items: center;
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    background-color: rgb(97, 61, 130);
+    color: white;
+    font-size: large;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+}
