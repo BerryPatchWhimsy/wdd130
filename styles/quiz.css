@@ -20,6 +20,7 @@ fieldset {
     display: grid;
     background-color: rgb(238, 237, 237);
     border: 0.5px solid #e0e0e0;
+    border-radius: 6px;
     grid-template-columns: 375px;
 }
 
@@ -48,6 +49,7 @@ input, textarea, select {
     margin-left: 12px;
     box-sizing: border-box;
     font-family: inherit;
+    padding: 0.5rem;
     font-size: medium;
 }
 
@@ -67,6 +69,12 @@ button {
     background-color: rgb(97, 61, 130);
     color: white;
     font-size: large;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: rgb(121, 90, 149);
 }
 
 footer {
