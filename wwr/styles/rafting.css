@@ -168,6 +168,66 @@ section h2 {
     font-size: 1rem;
 }
 
+.company {
+    background-color: #5E9E6F;
+    display: grid;
+    margin: 10px;
+}
+
+.company h2 {
+    color: #ffb041;
+    margin: 0 0 10px 0;
+}
+
+.office {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.office1 img {
+    width: auto;
+    height: 14rem;
+    margin: 0;
+}
+
+.office1 {
+    margin: 0;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 15rem 10rem;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.info img {
+    width: 30px;
+    height: auto;
+    align-self: center;
+    margin: 0;
+}
+
+iframe {
+    width: 30rem;
+    height: 25rem;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.team img {
+    width: 100px;
+    height: auto; 
+}
+
 footer {
     display: grid;
     grid-template-columns: 3fr 1fr;
