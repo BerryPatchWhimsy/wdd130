@@ -179,8 +179,10 @@ section h2 {
 .company h1 {
     color: #ffb041;
     margin: 0;
+    text-align: center;
     padding: 5px;
     box-shadow: 0 0 5px var(--accent1-color);
+    font-size: 2rem;
 }
 
 .office {
