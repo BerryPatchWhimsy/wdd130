@@ -411,6 +411,166 @@ input[type="radio"] {
     justify-self: right;
 }
 
+
+.hero1 {
+    position: relative;
+    margin: 10px 0;
+}
+
+.hero1 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5%;
+}
+
+.hero1 h1 {
+    position: absolute;
+    top: -1rem;
+    right: 1rem;
+    font-size: 2.7rem;
+    /*text-shadow: 0rem 0rem .9rem azure;*/
+    color: var(--accent2-color);
+    background-color: #39d0c17c;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.hero1 article {
+    position: absolute;
+    top: 455px;
+    left: 0;
+    width: 100%;
+    background-color: #39d0c1e1;
+    border: 0.5px solid #223630;
+    text-align: center;
+}
+
+.hero1 p {
+    margin: 15px 10px;
+    padding: 0;
+    color: azure;
+}
+
+.trip-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px 0;
+    padding: 0;
+    gap: 10px;
+    max-width: 1000px;
+    background-color: white;
+}
+
+.trip-items img {
+    width: 15rem;
+    height: auto;
+    border: 0.5px solid black;
+    border-radius: 3%;
+    box-shadow: 0 0 10px var(--accent1-color);
+    margin: 0;
+    padding: 0;
+}
+
+.trip1 {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+   margin: 10px;
+   padding: 0;
+   background-color: var(--accent2-color);
+   border-radius: 3%;
+}
+
+.trip1 p {
+    margin: 0;
+    padding: 10px 15px;
+    color: azure;
+    text-align: center;
+}
+
+.trip1 figure {
+    margin: 20px 0 10px 0;
+    padding: 0;
+}
+
+.trip1 figcaption {
+    color: #a87328;
+}
+
+.interest {
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.interest h3 {
+    background-color: var(--accent2-color);
+    color: azure;
+    font-size: 1.4rem;
+    margin: 15px 30px;
+    border-radius: 3%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 3px var(--accent1-color);
+}
+
+.interest fieldset {
+    display: grid;
+    margin: 1rem 2rem;
+    border: 2px solid var(--accent2-color);
+    box-shadow: 0 0 10px var(--accent1-color);
+}
+
+.interest nav {
+    height: 4rem;
+    background-color: #ffb041;
+    border-radius: 3%;
+    box-shadow: 0 0 3px var(--accent1-color);
+    margin: 15px 0 5px 0;
+}
+
+.interest p {
+    margin: 5px;
+}
+
+.trip2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.trip2 h2 {
+    font-family: var(--heading-font);
+    justify-self: center;
+    color: var(--accent1-color);
+    margin: 0;
+}
+
+table {
+    border: 1px solid var(--accent1-color);
+    font-family: var(--paragraph-font);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin: 0 0 20px 0;
+}
+
+th {
+    font-weight: bolder;
+    background-color: #39d0c1ac;
+    padding: 10px 20px;
+}
+
+td {
+    border: 0.5px solid #395b50b0;
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px 20px;
+}
+
 footer {
     display: grid;
     grid-template-columns: 3fr 0.5fr 1fr;
@@ -430,7 +590,6 @@ footer nav {
     flex-wrap: nowrap;
     justify-content: space-around;
     font-size: var(--paragraph-font);
-
 }
 
 .wireframe {
@@ -438,10 +597,9 @@ footer nav {
     color: var(--accent1-color);
 }
 
-
 footer p {
     display: flex;
     justify-self: center;
-    color: #395B50;
+    color: azure;
     flex-wrap: nowrap;
-}
+}  
