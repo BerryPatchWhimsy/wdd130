@@ -3,15 +3,15 @@
 :root {
     --primary-color: #39d0c1;
     --secondary-color: #5E9E6F;
-    --accent1-color: #395B50;
+    --accent1-color: #2c473e;
     --accent2-color: #ffb041;
 
     --heading-font: 'Gretchen Fuemen', cursive;
     --paragraph-font: 'Hind Vadodara', sans-serif;
 
     --nav-background-color: #39d0c1;
-    --nav-link-color: white;
-    --nav-hover-link-color: #395B50;
+    --nav-link-color: #2c473e;
+    --nav-hover-link-color: white;
     --nav-hover-background-color: #ffb041;
 }
 
@@ -64,7 +64,7 @@ nav {
 
 nav a {
     display: block;
-    color: var(--nav-link-color);
+    color: #2c473e;
     text-decoration: none;
     padding: 0.5rem;
     margin: 0;
@@ -93,11 +93,11 @@ nav a:hover {
 
 .hero h1 {
     position: absolute;
-    top: -1rem;
-    left: 5rem;
-    font-size: 3rem;
+    top: -3rem;
+    left: 30rem;
+    font-size: 4.5rem;
     color: #ffb041;
-    text-shadow: 0rem 0rem 1rem black;
+    text-shadow: 0rem 0rem .5rem black;
 }
 
 .hero article {
@@ -114,23 +114,22 @@ nav a:hover {
     float: left;
     width: 20%;
     height: auto;
-    margin: 6px 10px 6px 30px;
+    margin: 6px 10px 6px 90px;
     box-shadow: 0 0 20px var(--accent1-color);
 }
 
 .hero article p {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-content: center;
-    font-family: var(--heading-font);
-    font-size: 1.7rem;
+    font-family: var(--paragraph-font);
+    font-size: 1.5rem;
     color: var(--accent1-color);
     
 }
 
 section {
     background-color: #39d0c1d8;
-    color: white;
     max-width: 1000px;
     border-radius: 3px;
 }
@@ -164,7 +163,7 @@ section h2 {
     font-size: 2rem;
     margin-bottom: 0;
     color: var(--accent2-color);
-    text-shadow: 0rem 0rem 1rem rgb(30, 37, 37);
+    text-shadow: 0rem 0rem .3rem black;
 }
 
 .adventure {
@@ -331,7 +330,7 @@ form {
 .forms h2 {
     font-family: var(--paragraph-font); 
     margin: 0 250px; 
-    text-shadow: none; 
+    text-shadow: 0 0 0.1rem black; 
 }
 
 fieldset {
@@ -388,17 +387,17 @@ textarea {
 button {
     margin: 1rem 5rem;
     padding: 0.5rem;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     color: aliceblue;
     border-radius: 6px;
-    border: none;
+    border: 1px solid var(--accent1-color);
     font-size: 1.2rem;
     font-family: inherit;
     box-shadow: 0 0 5px var(--accent1-color);
 }
 
 button:hover {
-    background-color: var(--primary-color);
+    background-color: var(--accent2-color);
     color: var(--nav-hover-link-color);
 }
 
@@ -460,7 +459,7 @@ input[type="radio"] {
     top: -1rem;
     right: 1rem;
     font-size: 2.7rem;
-    /*text-shadow: 0rem 0rem .9rem azure;*/
+    text-shadow: 0rem 0rem .5rem black;
     color: var(--accent2-color);
     background-color: #39d0c17c;
     padding: 0 10px;
@@ -472,16 +471,16 @@ input[type="radio"] {
     top: 455px;
     left: 0;
     width: 100%;
-    background-color: #39d0c1e1;
-    border-top: 1.5px solid var(--accent2-color);
-    border-bottom: 1.5px solid var(--accent2-color);
+    background-color: #39d0c1;
+    border-top: 1.7px solid var(--secondary-color);
+    border-bottom: 1.7px solid var(--secondary-color);
     text-align: center;
 }
 
 .hero1 p {
     margin: 15px 10px;
     padding: 0;
-    color: white;
+    color: var(--accent1-color);
 }
 
 .trip-items {
@@ -513,6 +512,7 @@ input[type="radio"] {
    padding: 0;
    background-color: var(--accent2-color);
    border-radius: 3%;
+   border: 1px solid var(--secondary-color);
 }
 
 .trip1 p {
@@ -554,7 +554,7 @@ input[type="radio"] {
     display: grid;
     margin: 1rem 2rem;
     border: 2px solid var(--accent2-color);
-    box-shadow: 0 0 10px var(--accent1-color);
+    box-shadow: 0 0 10px var(--secondary-color);
 }
 
 .interest nav {
@@ -567,6 +567,11 @@ input[type="radio"] {
 
 .interest p {
     margin: 5px;
+}
+
+.trip-items h3 {
+    border: 0.5px solid var(--secondary-color);
+    box-shadow: 0 0 10px var(--secondary-color);
 }
 
 .trip2 {
@@ -621,7 +626,7 @@ td {
     margin: 10px 0 0 0;
     font-size: 3rem;
     color: #ffb041;
-    text-shadow: 0rem 0rem 1rem rgb(30, 37, 37);
+    text-shadow: 0rem 0rem 1rem black;
 }
 
 .hero3 article {
@@ -647,12 +652,11 @@ td {
 .hero3 article p {
     display: flex;
     justify-content: left;
-    font-family: var(--heading-font);
-    font-size: 2.1rem;
-    color: var(--accent2-color);
+    font-family: var(--paragraph-font);
+    font-size: 1.7rem;
+    color: var(--accent1-color);
     padding: 0;
     margin: 0;
-    text-shadow: 0 0 1rem black;
 }
 
 .home-page {
@@ -701,6 +705,11 @@ td {
 .news {
     margin: 0 0 10px 0;
 }
+
+.news2, .news3 {
+    margin-left: 10px;
+}
+
 .home-aside2 form {
     display: grid;
     grid-template-columns: none;
@@ -715,6 +724,13 @@ td {
 
 .home-aside2 button {
     margin: 20px;
+    background-color: var(--accent2-color);
+    color: var(--accent1-color); 
+}
+
+.home-aside button:hover {
+    background-color: var(--accent2-color);
+    color: var(--nav-hover-link-color);
 }
 
 .home-item {
@@ -733,8 +749,7 @@ td {
     justify-content: left;
     font-size: 2.5rem;
     margin: 1rem 0 0 1rem;
-    color: var(--accent2-color);
-    text-shadow: 0rem 0rem 1rem rgb(30, 37, 37)
+    color: var(--accent2-color)
 }
 
 .home-item1 {
@@ -742,9 +757,9 @@ td {
 }
 .home-item img {
     float: left;
-    border: 1px solid steelblue;
+    border: 1px solid var(--accent1-color);
     padding: 0.5rem;
-    box-shadow: 0 0 30px var(--accent1-color);
+    /*box-shadow: 0 0 5px var(--accent1-color);*/
     margin: 0 1rem;
     width: 27rem;
     height: auto;
@@ -780,7 +795,7 @@ footer p {
     justify-content: flex-end;
     text-align: center;
     align-items: center;
-    color: azure;
+    color: var(--accent1-color);
     flex-wrap: nowrap;
     margin: 0;
     padding: 0;
